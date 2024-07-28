@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.info{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-size: contain;
+
+
+}
+.fortext{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+
+.event{
+    position: absolute;
+    font-size: 25px;
+    margin: 10px 0 0 20px ;
+    font-family: "Montserrat", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(162, 116, 69);
+}
+
+.decoration{
+    width: 100%;
+    height: 800px;
+    z-index: 2;
+    position: absolute;
+
+    
+}
+.text{
+  display: flex;
+  width: 100%;
+  height: 200px;
+
+
+}
+.text img{
+    position: relative;
+    width: 100%;
+    height: 200px;
+
+
+}
+.blockdiv {
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+ 
+.location1,
+.location2,
+.location3,
+.location4,
+.location5,
+.location6 {
+    color: rgba(10, 78, 78, 0.508);
+    text-decoration: wavy;
+    font-family: "Montserrat", cursive;
+    font-size: 25px;
+    position: absolute;
+    z-index: 2;
+}
+
+.location1 {
+
+    margin-bottom: 800px;
+}
+
+.location2 {
+    margin-bottom: 640px;
+}
+
+.location3 {
+    margin-bottom: 400px;
+}
+
+.location4 {
+    margin-bottom: 150px;
+}
+
+.location5 {
+    margin-top: 100px;
+}
+.location6{
+    margin-bottom: -320px;
+}
+.clock{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 720px;
+    z-index: 2;
+}
+ .arrow1,.arrow2, .arrow3, .arrow4, .arrow5{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+   
+} 
+ .arrow1{
+    margin-bottom: 450px;
+    z-index: 3;
+}
+.arrow2{
+    margin-bottom: 205px;
+    z-index: 3;
+}
+.arrow3{
+    margin-top: 40px;
+    z-index: 3;
+}
+.arrow4{
+    margin-top: 270px;
+    z-index: 3;
+}
+.arrow5{
+    margin-bottom: 790px;
+    z-index: 3;
+} 
+
+.time1,
+.time2,
+.time3,
+.time4,
+.time5 {
+    color: rgb(162, 116, 69);
+    text-decoration: wavy;
+    font-family: "Montserrat", cursive;
+    text-decoration: underline;
+    position: absolute;
+    z-index: 2;
+}
+
+.time1 {
+    margin-bottom: 580px;
+}
+
+.time2 {
+    margin-bottom: 340px;
+}
+
+.time3 {
+    margin-bottom: 90px;
+}
+
+.time4 {
+    margin-top: 150px;
+}
+
+.time5 {
+    margin-top: 400px;
+}
+
+.map1,
+.map2,
+.map3,
+.map4 {
+    font-size: 20px;
+    text-decoration: overline;
+    color: hsl(184, 28%, 45%);
+    position: absolute;
+    z-index: 2;
+}
+
+.map1 {
+    margin-bottom: 510px;
+}
+
+.map2 {
+    margin-bottom: 270px;
+}
+.map3{
+    margin-bottom: 20px;
+}
+.map4{
+    margin-bottom: -210px;
+}
+
+.map1:hover {
+    color: bisque;
+}
+.map2:hover {
+    color: bisque;
+}
+.map3:hover {
+    color: bisque;
+}
+.map4:hover {
+    color: bisque;
+}
+
+.forback {
+    width:100%;
+    height: 850px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.parent {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    z-index: 2;
+}
+
+.one {
+    width: 50%;
+    height: 60px;
+    border-right: splid gray 1px;
+    position: absolute;
+    z-index: 2;
+}
+
+.two {
+    width: 50%;
+    height: 60px;
+    border-left: solid rgb(172, 131, 88) 2px;
+    position: absolute;
+    z-index: 2;
+}
+.forWe{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+}
+.data{
+    position: absolute;
+    z-index: 4;
+    margin: -100px 0 0 80px;
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-size: 70px;
+    color: rgba(55, 148, 148, 0.582);
+
+}
+.name{
+    position: absolute;
+    z-index: 3;
+    margin: 280px 0 0 40px;
+    text-decoration: wavy;
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-size: 70px;
+    color: rgba(240, 255, 255, 0.582);
+}
+.we{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 50%;
+    
+
+
+}
+@media screen and (max-width: 500px) {
+    
+    .we{
+        margin: 0;
+        width: 470px;
+        height: 470px;
+        border-radius:50%;
+        box-decoration-break: slice;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .info{
+        width: 480px;
+
+    }
+    .blockdiv{
+        width: 500px;
+        height: 800px;
+    }
+    .decoration{
+        width: 500px;
+        height: 500px;
+    }
+}
